@@ -1,16 +1,27 @@
-# React + Vite
+# Nefes Studio Yönetim Paneli
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Hazırlayan: Muhammed Emir Bayram
+- Ders: BPR215 İnternet Programcılığı I 
+- Kullanıcı: Stüdyo yöneticisi
 
-Currently, two official plugins are available:
+## Salonlar ve dersler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Hareket Salonu: Hip Hop, Zumba
+- Reformer Salonu: Reformer Pilates
+- Denge Salonu: Yoga, Meditasyon
 
-## React Compiler
+Bu panel, stüdyo yöneticisinin salonları, üyeleri ve eğitmenleri tek ekranda görmesini sağlar. Günlük ders programı da bu panelden takip edilir.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Teknik bilgiler
 
-## Expanding the ESLint configuration
+- Node.js: 24.22.3 LTS | npm: 11.9.0
+- react: 19.2.9 | react-dom: 19.2.9
+- vite: 8.3.6 | @vitejs/plugin-react: 6.3.0
+- Dil ve stil: JavaScript, JSX, CSS
+- Branch'ler: main, developer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Yerelde çalıştırma
+
+1. Repo klasöründe npm ci çalıştırın.
+2. npm run dev yazın.
+3. Terminaldeki Local adresini açın.
